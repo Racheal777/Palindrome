@@ -50,7 +50,7 @@ function Check() {
     console.log(search)
 
     if(joined === lower){
-        word.innerHTML = `yieeeyy!! 🎊 🎉🎊 🎉 ${val} is a palindrom.  Well done 😍 🥰`
+        word.innerHTML = `yieeeyy!! 🎊 🎉🎊 🎉 ${val} is a palindrome.  Well done ❤️❤️😍 🥰`
     }else{
         word.innerHTML = `sorry 😔 😔 😔 ${val} is not a palindrome, Try again 😊😊😊`
     }
