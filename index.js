@@ -25,10 +25,15 @@ function Check() {
     let val = search.value
     
     console.log(val)
+
+    const lower = val.toLowerCase()
+    console.log(lower)
 //spliting the value which is a string
-    const splited = val.split('')
+    const splited = lower.split('')
     console.log(splited)
 
+   
+    
     //reverse the splited string which is now array
     const reversed = splited.reverse()
     console.log(reversed)
@@ -36,12 +41,15 @@ function Check() {
     //join the string in the array after reversing
     const joined = reversed.join('')
     console.log(joined)
+
+     //change it to lower case
+    
     
     search.value = ''
 
     console.log(search)
 
-    if(joined === val){
+    if(joined === lower){
         word.innerHTML = `yieeeyy!! 🎊 🎉🎊 🎉 ${val} is a palindrom.  Well done 😍 🥰`
     }else{
         word.innerHTML = `sorry 😔 😔 😔 ${val} is not a palindrome, Try again 😊😊😊`
