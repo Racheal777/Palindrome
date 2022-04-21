@@ -26,7 +26,12 @@ function Check() {
     
     console.log(val)
 
-    const lower = val.toLowerCase()
+    //triming for whitespace
+    const trimmed = val.trim()
+    console.log(trimmed)
+
+    
+    const lower = trimmed.toLowerCase()
     console.log(lower)
 //spliting the value which is a string
     const splited = lower.split('')
