@@ -1,0 +1,90 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: black;
+    --secondary-color: white
+}
+
+html{
+    transition: all 0.5s ease-in;
+}
+
+html.dark{
+    --primary-color: white;
+    --secondary-color: #333;
+}
+
+html.dark{
+    background-color: #111;
+    color: var(--primary-color);
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+.main h2{
+    font-family: cursive;
+    color: violet;
+    font-size: 2.1em;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.main input{
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid rgb(200, 197, 197);
+    font-size: 1em;
+    
+
+}
+
+input:focus{
+    outline: none;
+}
+
+.main button {
+    padding: 10px 19px;
+    /* margin: auto; */
+    border: none;
+    border-radius: 19px;
+    background-color: violet;
+    font-size: 1em;
+    color: white;
+    
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(72, 19, 72);
+    color: var(--primary-color);
+    font-size: 1.5em;
+    margin: 0.4em auto;
+    padding: 17px 20px;
+    width: 80%;
+    text-align: center;
+    
+}
+
+#icon{
+    border: none;
+    background-color: transparent;
+    font-size: 2em;
+    margin: 1em 0.9em;
+    text-align: right;
+    /* background-color: var(--primary-color); */
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+
