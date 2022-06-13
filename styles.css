@@ -81,6 +81,7 @@ h3{
     background-color: transparent;
     font-size: 2em;
     margin: 1em 0.9em;
+    
     text-align: right;
     /* background-color: var(--primary-color); */
     color: var(--primary-color);
